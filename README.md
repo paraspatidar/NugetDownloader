@@ -1,2 +1,2 @@
 # NugetDownloader
-.Net Core 2.1 based solution to download nuget packages dynamically and find relavant dlls
+.Net Core 2.1 based Library which can be used to dynamically search and download packages.
