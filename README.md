@@ -1,5 +1,5 @@
 # NugetDownloader
-.Net Core 2.1 based Library which can be used to dynamically/programmatically search and download Othet Nuget packages.
+.Net Core 2.1 based Library which can be used to dynamically/programmatically search and download Other Nuget packages.
 
 [![NuGet Badge](https://buildstats.info/nuget/nugetdownloader)](https://www.nuget.org/packages/nugetdownloader/)
 
