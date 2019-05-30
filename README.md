@@ -6,7 +6,7 @@
 
 ## ReadWorld Scenarios and working 
 
-Nuget downloader source code in this repo is the source code for same name Nuget Package [https://www.nuget.org/packages/NugetDownloader/]([https://www.nuget.org/packages/NugetDownloader/](https://www.nuget.org/packages/NugetDownloader/))
+Nuget downloader source code in this repo is the source code for same name Nuget Package [https://www.nuget.org/packages/NugetDownloader/]([https://www.nuget.org/packages/NugetDownloader/](https://www.nuget.org/packages/NugetDownloader/)
 
 Which can be used to **download nuget programmatically** from any *public or private nuget feed*.
 
@@ -104,6 +104,7 @@ Newtonsoft.json:10.2.1.0
 
 Now , here is a sample code using these features :
 
+```csharp
     //newtonsoft.json:123
     Regex _pkgName = new Regex(NugetHelper.Instance.GetAppSettings()
     					     .NugetPackageRegEx,RegexOptions.Compiled);
@@ -143,3 +144,4 @@ Now , here is a sample code using these features :
 	    dllInfos.RemoveAll(x => x.rootPackage.ToLower() == package.ToLower() 
 							&& x.name.ToLower() == dll.ToLower());
     }
+```
