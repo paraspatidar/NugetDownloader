@@ -6,7 +6,7 @@
 
 
   <ItemGroup>
-    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="log4net" Version="2.0.10" />
     <PackageReference Include="Nuget.Packagemanagement" Version="4.8.0" />
     <PackageReference Include="Nuget.Projectmodel" Version="4.8.0" />
     <PackageReference Include="Nuget.Protocol" Version="4.8.0" />
