@@ -1,4 +1,5 @@
-﻿using NuGet.Packaging;
+﻿using NuGet.Common;
+using NuGet.Packaging;
 using NuGet.ProjectManagement;
 using System;
 using System.Collections.Generic;
@@ -31,6 +32,16 @@ namespace NugetWorker
         public void ReportError(string message)
         {
             Console.WriteLine(message);
+        }
+
+        void INuGetProjectContext.Log(ILogMessage message)
+        {
+            throw new NotImplementedException();
+        }
+
+        void INuGetProjectContext.ReportError(ILogMessage message)
+        {
+            throw new NotImplementedException();
         }
 
         public NuGetActionType ActionType { get; set; }
