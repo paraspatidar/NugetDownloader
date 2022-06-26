@@ -4,13 +4,12 @@
     <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
 
-
   <ItemGroup>
-    <PackageReference Include="log4net" Version="2.0.8" />
-    <PackageReference Include="Nuget.Packagemanagement" Version="4.8.0" />
-    <PackageReference Include="Nuget.Projectmodel" Version="4.8.0" />
-    <PackageReference Include="Nuget.Protocol" Version="4.8.0" />
-    <PackageReference Include="Nuget.resolver" Version="4.8.0" />
+    <PackageReference Include="log4net" Version="2.0.14" />
+    <PackageReference Include="Nuget.Packagemanagement" Version="6.2.1" />
+    <PackageReference Include="Nuget.Projectmodel" Version="6.2.1" />
+    <PackageReference Include="Nuget.Protocol" Version="6.2.1" />
+    <PackageReference Include="Nuget.resolver" Version="6.2.1" />
     <PackageReference Include="System.Runtime.Loader" Version="4.3.0" />
     <PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
   </ItemGroup>

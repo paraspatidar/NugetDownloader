@@ -72,7 +72,7 @@ namespace NugetWorker
                 if(nugetRepository.IsPrivate)
                 {
                     packageSource.Credentials = new PackageSourceCredential(nugetRepository.Name,
-                        nugetRepository.Username, nugetRepository.Password, nugetRepository.IsPasswordClearText);
+                        nugetRepository.Username, nugetRepository.Password, nugetRepository.IsPasswordClearText, "");
                 }
                 SourceRepository sourceRepository = new SourceRepository(packageSource, providers);
                 sourcerepos.Add(sourceRepository);

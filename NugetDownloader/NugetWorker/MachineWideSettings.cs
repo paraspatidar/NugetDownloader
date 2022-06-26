@@ -13,9 +13,11 @@ namespace NugetWorker
         {
             var baseDirectory = NuGetEnvironment.GetFolderPath(NuGetFolderPath.MachineWideConfigDirectory);
             _settings = new Lazy<IEnumerable<Settings>>(
-                () => global::NuGet.Configuration.Settings.LoadMachineWideSettings(baseDirectory));
+                () => (System.Collections.Generic.IEnumerable<NuGet.Configuration.Settings>)global::NuGet.Configuration.Settings.LoadMachineWideSettings(baseDirectory));
         }
 
         public IEnumerable<Settings> Settings => _settings.Value;
+
+        ISettings IMachineWideSettings.Settings => throw new NotImplementedException();
     }
 }
