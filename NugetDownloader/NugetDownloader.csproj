@@ -9,7 +9,7 @@
     <PackageReference Include="log4net" Version="2.0.8" />
     <PackageReference Include="Nuget.Packagemanagement" Version="4.8.0" />
     <PackageReference Include="Nuget.Projectmodel" Version="4.8.0" />
-    <PackageReference Include="Nuget.Protocol" Version="4.8.0" />
+    <PackageReference Include="Nuget.Protocol" Version="4.9.6+a32bce39889f724fbd11cfd12e946f802168b583" />
     <PackageReference Include="Nuget.resolver" Version="4.8.0" />
     <PackageReference Include="System.Runtime.Loader" Version="4.3.0" />
     <PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
